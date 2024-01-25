@@ -102,3 +102,28 @@
          left: 0;
          clip-path: circle(600px at right 800px);
      }
+   @media screen and (max-width: 1100px) {
+        .menu {
+            height: 100px;
+            max-width: 600px;
+            transform: translateY(40%);
+        }
+        .circulo {
+            flex-direction: column;
+            transform: translateY(100%);
+            width: 150%;
+            left: 100%;
+            
+        }
+        .caixa-texto {
+            flex-direction: column;
+            width: 1000px;
+
+        }
+        .caixa-imagem{
+        height: 500px;
+        transform: translateY(200%);
+        
+        
+        }
+    }
